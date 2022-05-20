@@ -1,4 +1,5 @@
 #!bin/bash
+pkg update
 pkg install figlet -y
 clear
 echo "..."
@@ -14,3 +15,4 @@ sleep 3
 clear
 echo "Installed!"
 figlet Installed!
+
