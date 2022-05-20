@@ -2,7 +2,7 @@
 First you need to paste the command
 
 
-git clone https://github.com/ChangedDarkDex/termux-program
+git clone https://github.com/ChangedDarkDex/SnowyLuigi
 
 
 Into the terminal in termux/linux
@@ -11,7 +11,7 @@ Into the terminal in termux/linux
 Then do 
 
 
-cd termux-program
+cd SnowyLuigi
 
 
 And then
