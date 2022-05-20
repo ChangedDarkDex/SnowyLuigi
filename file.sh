@@ -15,4 +15,15 @@ sleep 3
 clear
 echo "Installed!"
 figlet Installed!
+echo "we need to do one last thing before we end the installation"
+apt install toilet
+echo "Please Wait..."
+sleep 5
+clear
+toilet Done!
+figlet Done!
+echo "Done!"
+echo "Hope you enjoy our program. Closing this down..."
+sleep 6
+clear
 
