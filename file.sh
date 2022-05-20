@@ -2,9 +2,19 @@
 pkg update
 pkg install figlet -y
 clear
-dialog --clear --backtitle "Backtitle here" --title "Title here" --menu "Choose one of the following options:" 15 40 4 \
-1 "Option 1" \
-2 "Option 2" \
-3 "Option 3"
+PS3='Do you want to install? '
+options=("yes" "no")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "yes")
+            echo "you chose yessss"
+            ;;
+        "no")
+            break
+            ;;
+        *) echo "invalid option $REPLY";;
+    esac
+done
 
 
