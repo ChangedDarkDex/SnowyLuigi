@@ -16,6 +16,7 @@ clear
 echo "Installed!"
 figlet Installed!
 echo "we need to do one last thing before we end the installation"
+sleep 4
 apt install toilet
 echo "Please Wait..."
 sleep 5
