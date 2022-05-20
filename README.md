@@ -1,2 +1,0 @@
-# termux-program
-Termux program
