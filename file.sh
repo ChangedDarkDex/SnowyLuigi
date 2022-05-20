@@ -8,7 +8,12 @@ select opt in "${options[@]}"
 do
     case $opt in
         "yes")
-            echo "you chose yessss"
+            echo "Please wait..."
+            sleep 4
+clear
+echo download starting..
+sleep 2
+
             ;;
         "no")
             break
