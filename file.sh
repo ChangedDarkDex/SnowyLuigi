@@ -6,10 +6,11 @@ sleep 4
 clear
 figlet Welcome!
 echo "please wait while i do everything you need to do"
+sleep 3
 pkg update
 clear
-echo "!.!."
+echo "..."
 sleep 3
 clear
-echo "Installed!
+echo "Installed!"
 figlet Installed!
