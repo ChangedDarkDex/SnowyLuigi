@@ -10,10 +10,17 @@ do
             echo "Please wait..."
             sleep 4
 clear
-echo download starting..
+echo "download starting.."
 sleep 2
 cd 
-git clone https://github.com/ChangedDarkDex/SnowyLuigi
+cd Desktop
+clear
+echo "downloading"
+sleep 3
+git clone https://github.com/ChangedDarkDex/SnowyLuigiFile/tree/main
+echo "done! closing down..."
+sleep 4
+break
 
             ;;
         "no")
