@@ -1,6 +1,5 @@
 #!bin/bash
 pkg update
-pkg install figlet -y
 clear
 PS3='Do you want to install? '
 options=("yes" "no")
@@ -13,6 +12,8 @@ do
 clear
 echo download starting..
 sleep 2
+cd 
+git clone https://github.com/ChangedDarkDex/SnowyLuigi
 
             ;;
         "no")
