@@ -17,7 +17,7 @@ cd Desktop
 clear
 echo "downloading"
 sleep 3
-git clone https://github.com/ChangedDarkDex/SnowyLuigiFile/tree/main
+git clone https://github.com/ChangedDarkDex/SnowyLuigiFile
 echo "done! closing down..."
 sleep 4
 break
